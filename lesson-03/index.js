@@ -7,7 +7,11 @@ function randomGenerator() {
   //.....
   const name = "sadra"
   console.log({ university });
-  // console.log("Funtional Scope: ", this)  
+  
+  // this.address = "Hofziglaan";
+
+  console.log("Funtional Scope: ", this)  
+  
   return 'T'
 }
 
@@ -22,7 +26,9 @@ var age = 60;
 
 console.log("Age after updating: ", age)
 
-randomGenerator();
+this.address = "Tehran Azadi";
+
+randomGenerator.bind(this)();
 console.log(this)
 
 // "this" is a reference point to the entity which is defining the scope.
