@@ -33,6 +33,6 @@ console.log(this)
 
 // "this" is a reference point to the entity which is defining the scope.
 
-// git update
+// git updates 
 
 
