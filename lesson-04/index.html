@@ -1,0 +1,60 @@
+<html>
+  <header>
+
+  </header>
+
+  <body>
+
+    <div>
+      
+      <div class="title-wrapper">
+        <h1 class="p-with-color-tomato" id="first_p">
+          My Cv 
+        </h1>
+      </div>
+
+      <button onclick="changeColor()" >
+        Change Color
+      </button>
+
+      <p>
+        This is a simple pragraph.
+      </p>
+
+      <div>
+        This is a simple pragraph.
+      </div>
+
+      <a href="https://www.google.com">
+        Go to Google
+      </a>
+    </div>
+  </body>
+
+  <script>
+    function changeColor(){
+      console.log(" Hello", { 
+          p: document.getElementById("first_p").textContent = "Hasan?"
+      })
+    }
+
+  </script>
+
+  <style>
+    p {
+      color: blue;
+    }
+
+    .p-with-color-tomato {
+      color: white;
+      text-align: center;
+    }
+
+    .title-wrapper {
+      padding-top: 16px;
+      padding-bottom: 16px;
+      background-color: rgba(201, 201, 197, 1)
+    }
+   </style>
+
+</html>
